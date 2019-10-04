@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="380" width="720" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 720.00001 380.00001">
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -672.36)">
+  <g id="g4177" transform="translate(-12.857 661.32)">
+   <rect id="rect4136" height="380" width="720" y="11.038" x="12.857" fill="#f2f2f2"/>
+   <path id="path4149" fill="#ccc" d="m406.45 171.65h-67.181c-2.322 0-4.1988 1.8769-4.1988 4.1988v50.386c0 2.3178 1.8769 4.1988 4.1988 4.1988h67.181c2.322 0 4.1988-1.8811 4.1988-4.1988v-50.386c0-2.3178-1.8769-4.1988-4.1988-4.1988zm-19.944 14.696c2.8972 0 5.2485 2.3513 5.2485 5.2485s-2.3513 5.2485-5.2485 5.2485-5.2485-2.3513-5.2485-5.2485 2.3513-5.2485 5.2485-5.2485zm-38.839 31.491 13.915-31.991 15.825 25.621 13.566-6.7391 7.0792 13.109h-50.386z"/>
+  </g>
+ </g>
+</svg>
