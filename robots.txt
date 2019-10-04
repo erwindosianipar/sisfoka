@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /application/
+Disallow: /system/
+Disallow: /assets/
+Disallow: /images/
+
+Sitemap: https://smk.yppelitasiantar.sch.id/sitemap.xml
