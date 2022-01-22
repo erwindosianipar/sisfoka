@@ -3,5 +3,6 @@ Disallow: /application/
 Disallow: /system/
 Disallow: /assets/
 Disallow: /images/
+Disallow: /tugas/
 
 Sitemap: https://smk.yppelitasiantar.sch.id/sitemap.xml

@@ -1,41 +1,41 @@
 <?php
-class Model_kontak extends CI_Model {
+class Model_kontak extends CI_Model
+{
 
-    public function get_kontak(){
-		
-		$query = $this->db->query("SELECT * FROM contacts ORDER BY id DESC");
-		return $query->result_array();	
-	
-	}
+    public function get_kontak()
+    {
 
-	public function set_kontak($name, $email, $about, $phone, $message){
+        $query = $this->db->query("SELECT * FROM contacts ORDER BY id DESC");
+        return $query->result_array();
+    }
 
-		$this->load->helper('date');
+    public function set_kontak($name, $email, $about, $phone, $message)
+    {
 
-	    $data = array(
-	    	'name'		=> $name,
-	    	'email'		=> $email,
-	    	'about'		=> $about,
-	    	'phone'		=> $phone,
-	    	'message'	=> $message,
-	    	'ipaddress'	=> $this->input->ip_address(),
-	    	'created' 	=> unix_to_human(now("Asia/Jakarta"), TRUE, 'eu')
-	    );
+        $this->load->helper('date');
 
-		return $this->db->insert('contacts', $data);
-	
-	}
+        $data = array(
+            'name'        => $name,
+            'email'        => $email,
+            'about'        => $about,
+            'phone'        => $phone,
+            'message'    => $message,
+            'ipaddress'    => $this->input->ip_address(),
+            'created'     => unix_to_human(now("Asia/Jakarta"), TRUE, 'eu')
+        );
 
-	public function set_dilihat($id){
-	
-		$data = array(
-			'see' => 1
-		); 
+        return $this->db->insert('contacts', $data);
+    }
 
-		$this->db->set($data);
-		$this->db->where('id', $id);
-		$this->db->update('contacts');
+    public function set_dilihat($id)
+    {
 
-	}
+        $data = array(
+            'see' => 1
+        );
 
+        $this->db->set($data);
+        $this->db->where('id', $id);
+        $this->db->update('contacts');
+    }
 }

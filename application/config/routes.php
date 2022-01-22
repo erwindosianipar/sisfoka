@@ -57,6 +57,8 @@ $route['ekstrakurikuler/(:any)'] 	= 'ekstrakurikuler/view/$1';
 $route['article/komentar'] 			= 'article/komentar';
 $route['article/(:any)']   			= 'article/view/$1';
 $route['sitemap\.xml'] 				= 'sitemap';
+$route['page/visi-misi']            = 'page/visimisi';
+$route['page/logo-motto']           = 'page/logomotto';
 
 $route['default_controller'] 		= 'home';
 $route['404_override'] 				= 'page/error';

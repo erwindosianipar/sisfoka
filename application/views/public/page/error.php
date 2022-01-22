@@ -10,8 +10,8 @@
                     <h2 class="error404">404</h2>
                     <div class="pt-2"></div>
                     <h2 class="bold">Maaf, halaman tidak ditemukan.</h2>
-                    <div class="pt-3">Anda mencoba mengarah ke: <br/>
-                        <b><?= current_url(); ?></b><br/> Halaman tersebut mungkin telah rusak atau telah dihapus (error 404).
+                    <div class="pt-3">Anda mencoba mengarah ke: <br />
+                        <b><?= current_url(); ?></b><br /> Halaman tersebut mungkin telah rusak atau telah dihapus (error 404).
 
                         <div class="row">
                             <div class="col-sm-3">
@@ -19,7 +19,7 @@
                             <div class="col-sm-6">
                                 <div class="text-left pt-5">
 
-                                <div class="pb-4 bold">Apa yang dapat Anda lakukan selanjutnya?</div>
+                                    <div class="pb-4 bold">Apa yang dapat Anda lakukan selanjutnya?</div>
 
                                     <ul>
                                         <li>Periksa kembali apakah alamat URL yang Anda masukkan sudah benar.</li>

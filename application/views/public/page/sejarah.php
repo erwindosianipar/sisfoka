@@ -1,5 +1,5 @@
 <div class="container-fluid bg-waterfall">
-	<div class="pt-5 pb-5"></div>
+    <div class="pt-5 pb-5"></div>
     <div class="pt-5 pb-5"></div>
     <div class="pt-5 pb-5 d-none d-lg-block"></div>
 </div>
@@ -24,7 +24,7 @@
                             <div class="bold">
                                 Diupdate: <?php echo $sejarah['modified']; ?>
                             </div>
-                            <?php include(APPPATH.'views/dir/share.php'); ?>
+                            <?php include(APPPATH . 'views/dir/share.php'); ?>
                         </div>
                     </div>
                 </div>

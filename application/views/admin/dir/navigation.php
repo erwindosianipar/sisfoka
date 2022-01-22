@@ -1,5 +1,5 @@
 <?php
-if(empty($this->session->userdata('adminlog'))){
+if (empty($this->session->userdata('adminlog'))) {
     show_404();
 }
 ?>
@@ -62,6 +62,7 @@ if(empty($this->session->userdata('adminlog'))){
                     </li>
                 </ul>
             </li>
+            <li><a href="<?= base_url('admin/info'); ?>">Informasi internal</a></li>
             <li>
                 <a href="#hs4" data-toggle="collapse" aria-expanded="false">
                     Data alumni
@@ -156,7 +157,7 @@ if(empty($this->session->userdata('adminlog'))){
                     </li>
                 </ul>
             </li>
-        </ul>    
+        </ul>
     </nav>
     <div id="content">
         <div class="nav-scroller bg-white shadow-sm">
@@ -169,22 +170,22 @@ if(empty($this->session->userdata('adminlog'))){
                     </a>
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-link nav-item active">
-                        </li> 
+                        </li>
                     </ul>
                     <a href="<?= base_url('admin/profile'); ?>" class="nav-link">
                         <i class="fa fa-user-circle fa-lg"></i>
                     </a>
                     <a href="<?= base_url('admin/view/kontak'); ?>" class="nav-link">
                         <i class="fa fa-envelope fa-lg"></i>
-                        <?php if($count_contact != 0){
-                            echo '<span class="badge badge-pill bg-danger align-text-bottom text-white">'.$count_contact.'</span>';
+                        <?php if ($count_contact != 0) {
+                            echo '<span class="badge badge-pill bg-danger align-text-bottom text-white">' . $count_contact . '</span>';
                         }
                         ?>
                     </a>
                     <a href="<?= base_url('admin/view/komentar'); ?>" class="nav-link">
                         <i class="fa fa-comments fa-lg"></i>
-                        <?php if($count_comment != 0){
-                            echo '<span class="badge badge-pill bg-danger align-text-bottom text-white">'.$count_comment.'</span>';
+                        <?php if ($count_comment != 0) {
+                            echo '<span class="badge badge-pill bg-danger align-text-bottom text-white">' . $count_comment . '</span>';
                         }
                         ?>
                     </a>
