@@ -1,5 +1,5 @@
 <?php
-if(empty($this->session->userdata('siswalog'))){
+if (empty($this->session->userdata('siswalog'))) {
     show_404();
 }
 ?>
@@ -14,11 +14,12 @@ if(empty($this->session->userdata('siswalog'))){
             <li>
             <li><a href="<?= base_url('siswa/profil'); ?>">Profil saya</a></li>
             <li><a href="<?= base_url('siswa/profil/update'); ?>">Edit profil</a></li>
-            <li><a href="<?= base_url('siswa/informasi'); ?>">Informasi</a></li>
+            <li><a href="<?= base_url('siswa/profil/password'); ?>">Update password</a></li>
             <li><a href="<?= base_url('siswa/pesan'); ?>">Pesan masuk</a></li>
             <li><a href="<?= base_url('siswa/absensi'); ?>">Absensi siswa</a></li>
             <li><a href="<?= base_url('siswa/roster'); ?>">Jadwal / Roster</a></li>
             <li><a href="<?= base_url('siswa/galeri'); ?>">Galeri foto</a></li>
+            <li><a href="<?= base_url('siswa/tugas'); ?>">Upload tugas</a></li>
         </ul>
     </nav>
     <div id="content">
@@ -32,7 +33,7 @@ if(empty($this->session->userdata('siswalog'))){
                     </a>
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-link nav-item active">
-                        </li> 
+                        </li>
                     </ul>
                     <a href="<?= base_url('siswa/login/logout'); ?>" class="nav-link bg-red-ci">
                         <i class="fa fa-sign-out-alt fa-lg text-white"></i>

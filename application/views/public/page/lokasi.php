@@ -1,5 +1,7 @@
 <div class="container-fluid bg-primary text-center text-white">
-    <div class="pt-5 pb-5"><h1 class="bold">Lokasi Sekolah</h1></div>
+    <div class="pt-5 pb-5">
+        <h1 class="bold">Lokasi Sekolah</h1>
+    </div>
     <div class="pt-3 d-none d-lg-block"></div>
 </div>
 <div class="container-fluid bg-website">
@@ -25,7 +27,7 @@
                                     Jl. Melanthon Siregar No.155, Parhorasan Nauli, Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21151
                                 </div>
                             </div>
-                             <div class="media mt-2">
+                            <div class="media mt-2">
                                 <i class="fa fa-phone mb-10 mr-2"></i>
                                 <div class="media-body mt-m10">
                                     (0622) 434858

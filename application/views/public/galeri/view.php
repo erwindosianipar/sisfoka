@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-2 post-outer">
-                <?php include(APPPATH.'views/dir/share2.php'); ?>
+                <?php include(APPPATH . 'views/dir/share2.php'); ?>
             </div>
             <div class="col-lg-7 post-outer mb-4">
                 <div class="list-group">
@@ -19,16 +19,16 @@
                     </div>
                     <div class="list-group-item shadow-sm p-0">
                         <center>
-                            <img src="<?= base_url('images/galeri/'.$galeri_item['image']); ?>" class="post-outer">
+                            <img src="<?= base_url('images/galeri/' . $galeri_item['image']); ?>" class="post-outer">
                         </center>
                     </div>
                     <div class="list-group-item shadow-sm">
-                        <b><?= $galeri_item['title']; ?></b><br/>.<br/>
+                        <b><?= $galeri_item['title']; ?></b><br />.<br />
                         <?= $galeri_item['description']; ?>
-                        <br/>.<br/>
+                        <br />.<br />
                         <b>#smkpelita #smkbisa #siantar #smkhits #yppelita</b>
                     </div>
-                    <?php include(APPPATH.'views/dir/share3.php'); ?>
+                    <?php include(APPPATH . 'views/dir/share3.php'); ?>
                 </div>
             </div>
         </div>

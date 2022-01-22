@@ -1,5 +1,7 @@
 <div class="container-fluid bg-primary text-center text-white">
-    <div class="pt-5 pb-5"><h1 class="bold">Struktur Organisasi</h1></div>
+    <div class="pt-5 pb-5">
+        <h1 class="bold">Struktur Organisasi</h1>
+    </div>
     <div class="pt-3 d-none d-lg-block"></div>
 </div>
 <div class="container-fluid bg-website">
@@ -19,7 +21,7 @@
                             <div class="bold">
                                 Diupdate: <?= $struktur['modified']; ?>
                             </div>
-                            <?php include(APPPATH.'views/dir/share.php'); ?>
+                            <?php include(APPPATH . 'views/dir/share.php'); ?>
                         </div>
                     </div>
                 </div>

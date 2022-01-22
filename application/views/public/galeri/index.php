@@ -4,10 +4,10 @@
             <div class="col-lg-9 col-sm-12">
                 <div class="row mt-5">
                     <div class="col-4">
-                       	<img src="<?= base_url('images/logo/logo.png'); ?>" width="160" class="img-thumbnail p-3">
+                        <img src="<?= base_url('images/logo/logo.png'); ?>" width="160" class="img-thumbnail p-3">
                     </div>
                     <div class="col-8">
-                    	<h3 class="bold">SMK Pelita</h3>
+                        <h3 class="bold">SMK Pelita</h3>
                         <p>@smkpelitapematangsiantar</p>
                     </div>
                 </div>
@@ -69,15 +69,15 @@
     <div class="container mt-5">
         <div class="row d-flex justify-content-center">
             <div class="col-lg-9 col-sm-12">
-    			<div class="row">
-    				<?php foreach ($galeri as $galeri_item): ?>
-    				<div class="col-6 col-lg-4 mb-4">
-    					<a href="<?= base_url('p/'.$galeri_item['link']); ?>">
-    						<img src="<?= base_url('images/placeholder/placeholder.svg'); ?>" data-src="<?= base_url('images/galeri/medium/'.$galeri_item['image']); ?>" class="lazyload img-thumbnail">
-    					</a>
-    				</div>
-    				<?php endforeach; ?>
-    			</div>
+                <div class="row">
+                    <?php foreach ($galeri as $galeri_item) : ?>
+                        <div class="col-6 col-lg-4 mb-4">
+                            <a href="<?= base_url('p/' . $galeri_item['link']); ?>">
+                                <img src="<?= base_url('images/placeholder/placeholder.svg'); ?>" data-src="<?= base_url('images/galeri/medium/' . $galeri_item['image']); ?>" class="lazyload img-thumbnail">
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
             </div>
         </div>
     </div>
